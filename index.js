@@ -141,7 +141,7 @@ var BrowserStackBrowser = function (
     var globalSettings = Object.assign(
       {
         timeout: 300,
-        name: 'Karma test',
+        name: JSON.stringify([args.displayName, id]),
         build: process.env.BUILD_NUMBER ||
           process.env.BUILD_TAG ||
           process.env.CI_BUILD_NUMBER ||
