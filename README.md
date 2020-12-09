@@ -1,3 +1,6 @@
+# About this fork
+This fork implements the workaround described in [this issue](https://github.com/karma-runner/karma-browserstack-launcher/issues/183#issuecomment-741739883).
+
 # karma-browserstack-launcher
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/karma-runner/karma-browserstack-launcher)
