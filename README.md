@@ -1,5 +1,5 @@
 # About this fork
-This fork implements the workaround described in [this issue](https://github.com/karma-runner/karma-browserstack-launcher/issues/183#issuecomment-741739883).
+This fork implements the workaround described in [this issue](https://github.com/karma-runner/karma-browserstack-launcher/issues/183#issuecomment-741739883). The session in BrowserStack that corresponds with a karma test-run gets the name `[<displayName>, <browser.id>]` (for example: `["Windows_10_chrome_87.0","81591902"]`). Next, the session name can be obtained by querying the [BrowserStack REST API](https://www.browserstack.com/docs/automate/api-reference/selenium/session#get-session-list) and joined with karma JSON logs on `browser.id`, in order to obtain `displayName`.
 
 # karma-browserstack-launcher
 
